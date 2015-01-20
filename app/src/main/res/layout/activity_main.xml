@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <Button
+        android:id="@+id/multiButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:onClick="multiGame"
+        android:text="Connected games" />
+    <Button
+        android:id="@+id/soloButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:onClick="soloGame"
+        android:text="Other games" />
+</LinearLayout>
